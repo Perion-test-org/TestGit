@@ -13,7 +13,7 @@ public with sharing class ChangePasswordController {
         return Site.changePassword(newPassword, verifyNewPassword, oldpassword);    
     }     
     
-    
+    //comment 1.4
     //Comment 2
    	public ChangePasswordController() {}
     
